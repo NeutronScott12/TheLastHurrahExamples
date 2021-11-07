@@ -2249,10 +2249,10 @@
     web-vitals "^1.0.1"
     yup "^0.32.9"
 
-"@thelasthurrah/binary-stash-comment-component@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@thelasthurrah/binary-stash-comment-component/-/binary-stash-comment-component-0.0.12.tgz#ed94bb6593cadae82c3bd245ad177d6263910097"
-  integrity sha512-720Y20URXwpO2QZxlHW+irU6kLVnGHyejTdErG1Cje6NdFzPDjyy2Ubt6ufMV7sS/mNGTun/4bLS4dcnSVDDAQ==
+"@thelasthurrah/binary-stash-comment-component@^0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@thelasthurrah/binary-stash-comment-component/-/binary-stash-comment-component-0.0.15.tgz#4d7d428365086008157820bc010c63a932643ee7"
+  integrity sha512-Rm+RYLIwMFU9oiMRQPtKPVfg6Vyv+ajUQoSDCK6CO8+PYl/nKLk7giWdADl4cOUk2HDsZU0HVDI3THriOphfgQ==
   dependencies:
     "@apollo/client" "^3.4.16"
     "@emotion/css" "^11.5.0"
@@ -2265,6 +2265,7 @@
     "@mui/styled-engine-sc" "^5.0.3"
     "@mui/styles" "^5.0.2"
     "@thelasthurrah/binary-stash-authentication" "^0.0.9"
+    bufferutil "^4.0.5"
     cross-env "^7.0.3"
     emotion "^11.0.0"
     escape-html "^1.0.3"
@@ -2287,6 +2288,7 @@
     slate-react "^0.69.0"
     styled-components "^5.3.3"
     subscriptions-transport-ws "^0.11.0"
+    utf-8-validate "^5.0.7"
     web-vitals "^2.1.2"
     yup "^0.32.11"
 
@@ -3743,6 +3745,13 @@ buffer@^4.3.0:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
     isarray "^1.0.0"
+
+bufferutil@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/bufferutil/-/bufferutil-4.0.5.tgz#da9ea8166911cc276bf677b8aed2d02d31f59028"
+  integrity sha512-HTm14iMQKK2FjFLRTM5lAVcyaUzOnqbPtesFIvREgXpJHdQm8bWS+GkQgIkfaBYRHuCnea7w8UVNfwiAQhlr9A==
+  dependencies:
+    node-gyp-build "^4.3.0"
 
 builtin-modules@^3.1.0:
   version "3.2.0"
@@ -8616,6 +8625,11 @@ node-forge@^0.10.0:
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
   integrity sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==
 
+node-gyp-build@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.3.0.tgz#9f256b03e5826150be39c764bf51e993946d71a3"
+  integrity sha512-iWjXZvmboq0ja1pUGULQBexmxq8CV4xBhX7VDOTbL7ZR4FOowwY/VOtRxBN/yKxmdGoIp4j5ysNT4u3S2pDQ3Q==
+
 node-int64@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
@@ -12576,6 +12590,13 @@ use@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
   integrity sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ==
+
+utf-8-validate@^5.0.7:
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/utf-8-validate/-/utf-8-validate-5.0.7.tgz#c15a19a6af1f7ad9ec7ddc425747ca28c3644922"
+  integrity sha512-vLt1O5Pp+flcArHGIyKEQq883nBt8nN8tVBcoL0qUXj2XT1n7p70yGIq2VK98I5FdZ1YHc0wk/koOnHjnXWk1Q==
+  dependencies:
+    node-gyp-build "^4.3.0"
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
