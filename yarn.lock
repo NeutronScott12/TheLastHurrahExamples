@@ -2318,10 +2318,10 @@
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-"@thelasthurrah/binary-stash-authentication@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@thelasthurrah/binary-stash-authentication/-/binary-stash-authentication-0.0.12.tgz#54a701b4cf195b600981396c4b9a58d6dcb89e9d"
-  integrity sha512-c0Kuo4V+Qx2PMHtDo1uluvEZLkfWy+JOYD4TT7hAHcySRzxQXv8qyer72RoES3Cw3cFqXOVtbze0Th0o6PVfpg==
+"@thelasthurrah/binary-stash-authentication@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@thelasthurrah/binary-stash-authentication/-/binary-stash-authentication-0.0.14.tgz#dda45971e97c441ffd366ae11ce8657b6fd90782"
+  integrity sha512-5TGmGTfaDNaWouyokzzkPI4WrQFnkhqvDwX0kvWLg6Z7Xutc7KMQfqUGL7uDEGijW0DNaSBWl6gTEO+/P63/iQ==
   dependencies:
     "@material-ui/core" "^4.12.3"
     "@material-ui/lab" "^4.0.0-alpha.60"
@@ -2358,10 +2358,10 @@
     web-vitals "^1.0.1"
     yup "^0.32.9"
 
-"@thelasthurrah/binary-stash-comment-component@^0.0.16":
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/@thelasthurrah/binary-stash-comment-component/-/binary-stash-comment-component-0.0.16.tgz#3d6b2cc0ef4a5e341a2e10e50b54fd5d6525f28f"
-  integrity sha512-KdPuTjkD7gg6af92y84qWn4plb1aAogFaazCyD/JZeACxGh+HPoupYfMK0cNCP6gZ5lGLXbceeWXwiS5k1cETA==
+"@thelasthurrah/binary-stash-comment-component@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@thelasthurrah/binary-stash-comment-component/-/binary-stash-comment-component-0.0.18.tgz#44393e2d0d7fc1b1eb02322432873ebc4706de7d"
+  integrity sha512-s9e96hpAueKr5OCyn9KDsoDPIEdvWlTya9pPqkk0evUjKeuB6QaIoGBwUg/rwieSb+k2FKLY0U82FNP4ydydow==
   dependencies:
     "@apollo/client" "^3.4.16"
     "@emotion/css" "^11.5.0"
