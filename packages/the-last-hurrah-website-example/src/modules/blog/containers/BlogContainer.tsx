@@ -15,7 +15,7 @@ export const BlogContainer = () => {
 
     const data = blogs.find((blog) => blog.slug === slug)
     const application_name = 'First Application'
-    const application_id = '5348a2e0-ed40-4491-85dc-4fdeaa4326cf'
+    const application_id = '2baac521-9d7e-42d0-b75a-aa4712ebcfde'
     const website_url = window.location.href
 
     const dark_theme = theme.palette.mode === 'dark' ? true : false
