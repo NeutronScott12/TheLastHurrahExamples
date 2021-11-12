@@ -10,7 +10,7 @@
         "@testing-library/react": "^12.1.2",
         "@testing-library/user-event": "^13.5.0",
         "@thelasthurrah/binary-stash-authentication": "^0.0.14",
-        "@thelasthurrah/binary-stash-comment-component": "^0.0.21",
+        "@thelasthurrah/binary-stash-comment-component": "^0.0.22",
         "history": "^5.1.0",
         "moment": "^2.29.1",
         "react": "^17.0.2",
