@@ -35,8 +35,8 @@ function App() {
     )
 
     return (
-        <ColorModeContext.Provider value={colorMode}>
-            <ThemeProvider theme={theme}>
+        <ThemeProvider theme={theme}>
+            <ColorModeContext.Provider value={colorMode}>
                 <CssBaseline />
                 <div>
                     <AuthProvider>
@@ -48,8 +48,8 @@ function App() {
                         </div>
                     </AuthProvider>
                 </div>
-            </ThemeProvider>
-        </ColorModeContext.Provider>
+            </ColorModeContext.Provider>
+        </ThemeProvider>
     )
 }
 
