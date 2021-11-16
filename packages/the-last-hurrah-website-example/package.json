@@ -3,14 +3,14 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@mui/icons-material": "^5.1.0",
-        "@mui/material": "^5.1.0",
-        "@mui/styles": "^5.1.0",
+        "@mui/icons-material": "^5.1.1",
+        "@mui/material": "^5.1.1",
+        "@mui/styles": "^5.1.1",
         "@testing-library/jest-dom": "^5.11.4",
         "@testing-library/react": "^12.1.2",
         "@testing-library/user-event": "^13.5.0",
         "@thelasthurrah/binary-stash-authentication": "^0.0.14",
-        "@thelasthurrah/binary-stash-comment-component": "^0.0.36",
+        "@thelasthurrah/binary-stash-comment-component": "^0.0.37",
         "history": "^5.1.0",
         "moment": "^2.29.1",
         "react": "^17.0.2",
@@ -49,7 +49,7 @@
     "devDependencies": {
         "@types/jest": "^27.0.2",
         "@types/node": "^16.11.7",
-        "@types/react": "^17.0.0",
+        "@types/react": "^17.0.35",
         "@types/react-dom": "^17.0.0",
         "@types/react-router-dom": "^5.3.2",
         "@types/yup": "^0.29.13"
